@@ -13,8 +13,7 @@ interface FavoriteState {
 
 const initialState: FavoriteState = {
   value: [
-    { id: '0', name: "pizza", howtocook: "iuawdiwhdwahdiuwhdoi" }, 
-    { id: '1', name: "burger", howtocook: "idhwahoidhwadhwadhoiwhdwa odihwaihdhw  dhwadoi hwa[ohdpowah[daw" }
+    
   ]
 }
 
