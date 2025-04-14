@@ -1,7 +1,7 @@
 const Info = () => {
   return <>
     <h1>About this App</h1>
-    <div style={{ color: "#bbb" }} className="info-contextbox">
+    <div className="info-contextbox">
       <p>
         Welcome to the <strong>AI-Powered Recipe Finder</strong> — your smart assistant for discovering delicious meals in seconds.
       </p>

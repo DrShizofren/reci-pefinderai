@@ -17,7 +17,7 @@ const Favorites = () => {
           onClick={() => navigate('/favorites/' + id)}
           className="favoritebuttons">
           {name}
-        </button>) : <p className="donthave">You don't have favorites yet</p>
+        </button>) : <p className="donthave">You don't have any favorites yet</p>
       }
     </div>
 

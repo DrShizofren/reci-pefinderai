@@ -7,11 +7,12 @@ import Info from "./pages/Info";
 import Settings from "./pages/Settings";
 import { Provider } from "react-redux";
 import { store } from './Store/index';
-import Favdetails from "./pages/favdetails";
+import Favdetails from "./pages/Favdetails";
+
 
 function App() {
-  return <div className="page">
-    <Provider store={store}>
+
+  return <Provider store={store}>
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Layout />}>
@@ -25,7 +26,6 @@ function App() {
       </BrowserRouter>
 
     </Provider>
-  </div>
 }
 
 export default App
